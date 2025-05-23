@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXO_WIFI</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        
+    function connexion() {
+        const nom = document.forms.f.Name.value.trim();
+        const telephone=document.forms.f.tp.value;
+        const code=document.forms.f.cd.value;
+
+        if (nom && telephone && code) {
+            alert("Bienvenue, " + nom + "\nVous êtes connecté à notre réseau !");
+        } else {
+            alert("Erreur de connexion... Veuillez vous inscrire.");
+        }
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+        let element = document.getElementById('circulation');
+        let text = element.innerText;
+        setInterval(() => {
+
+            text = text.substring(1) + text.charAt(0);
+            element.innerText = text;
+        }, 200);
+    });
+</script>
+
+</head>
+<body>
+<center>
+
+<div class="container">
+    <img src="c:\Users\hp\OneDrive\Imágenes\Desktop\first\routeur.png"alt="Image de Wi-Fi">
+
+    <h1>Wiffi illimitee</h1>
+     <h1><p>Profiter d'une connexion rapide et  fiable , 
+        idéale pour les cours en ligne et le teletravail en plus des gbaiarai
+     </p></h1>
+        
+        <hr size="3" color="black">
+
+        <form name="f">
+            
+            <strong> 
+            <div id="circulation">
+             <span>Connexion rapide</span>
+             <span>Abonnement mensuel</span>
+            <span>Support 24h/24 et 7j/7</span>
+            </div>
+             </strong>
+            <input type="text" placeholder="Votre Nom" name="Name" required>
+            <input type="tel" placeholder="+225xxxxxxxxxx"  pattern="^\+225[0-9]{10}" name="tp" required>
+            <pre>
+            <input type="text" placeholder=" CODE TEMPS " id="CT" name="cd" required>
+           </pre>
+           <strong><p id="AW">Taper sur connexion pour vous connecter</p></strong>
+            <pre>
+            <button type="button" id="GG" name="cnn" onclick="connexion()">connexion</button>
+            </pre>
+            <pre>
+                
+            <select class="option">
+                <strong><option value=" ">passe internet 200f pour 1 jour</option></strong>
+                <strong><option value="">passe internet 500f pour 5 jours</option></strong>
+                <strong><option value="">passe internet pour les ORDINATEUR et AUTRE appareil 8000f par mois</option></strong>
+                <strong><option value="">passe internet par semaine 1000f</option></strong>
+             </select>
+        </td>
+            </pre>
+            <div class="FT">
+            <p><strong>FORFAIT INTERNET</strong></p>
+            <p><strong>POINT DE VENTE :</strong></p>
+            <p><strong>AU MAGASIN CHEZ MOUKI</strong></p>
+        </div>
+
+        </form>
+</div>
+    
+</center>    
+</body>
+</html>

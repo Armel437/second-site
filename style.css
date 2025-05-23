@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0cap;
+    padding: 0cap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(spider-man-headshot-dunt3tic2qdrknmx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 70%;
+    max-width: 600px;
+    background-color: rgb(60, 216, 203);
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    backdrop-filter: blur(15px);
+}
+
+img{
+ width: 100%;
+ border-radius: #555;
+ margin-bottom: 20px;
+}
+
+h1{
+    color: #2c3e50;
+}
+p{  
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+input,button,#GG{
+    width:100px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+ button{
+    width:100px;
+    padding: 12px;
+    margin: 10px 0;
+    background-color:  #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    justify-content: space-between;
+    display: inline;
+}
+ button:hover{
+    background-color: #2980b9;
+}
+h3{
+    width:100px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #940909;
+    border-radius: 6px;
+}
+#GG{
+    background-color: #2980b9;
+    margin: 10px 0;
+    margin-right: 100px;
+    cursor: pointer;
+    border: none;
+}
+#AW{
+   
+    padding: 20px;
+    border: 1px solid #01815b;
+    border-radius: 20px;
+    background-color: gold;
+    display: inline-block;
+    margin-bottom: 4%;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+#CT{
+    display: inline-block;
+    margin-right: 75px;
+    border-radius: 3px;
+
+}
+.FT :hover{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+
+.option{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    border: 2px solid goldenrod;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color: #333;
+    text-align: center;
+}
+
+    
+
+
+#circulation{
+     
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 10px 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+
